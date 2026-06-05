@@ -52,7 +52,7 @@ retrieve node → similarity_search (pgvector) → generate node → Claude API 
 ### 1. Clone and install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/yeasirafgan/ai-document-assistant.git
 cd ai-document-assistant
 uv sync
 ```
