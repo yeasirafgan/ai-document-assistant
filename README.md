@@ -131,8 +131,6 @@ ai-document-assistant/
 │   ├── ingest.py       # PDF → chunks → embeddings → pgvector
 │   ├── rag.py          # LangGraph workflow: retrieve → generate
 │   └── main.py         # FastAPI endpoints
-├── docs/
-│   └── bangla/         # Learning notes with line-by-line Bangla explanations
 ├── uploads/            # Uploaded PDF files (git-ignored)
 ├── docker-compose.yml  # PostgreSQL + pgvector
 ├── pyproject.toml      # Dependencies (managed by uv)
