@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[oc]
+*.pyc
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment
+.venv
+
+# Secrets — never commit API keys
+.env
+
+# Uploaded files
+uploads/
+
+# Learning notes (Bangla explanations — personal use only)
+docs/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
