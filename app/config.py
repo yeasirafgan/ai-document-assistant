@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     anthropic_api_key: str
     openai_api_key: str
-    database_url: str = "postgresql+psycopg://rag_user:rag_password@localhost:5432/rag_db"
+    database_url: str
     embedding_model: str = "text-embedding-3-small"
     chat_model: str = "claude-haiku-4-5-20251001"
     chunk_size: int = 1000

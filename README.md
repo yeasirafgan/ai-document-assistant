@@ -63,11 +63,12 @@ uv sync
 cp .env.example .env
 ```
 
-Edit `.env` and add your API keys:
+Edit `.env` and add your API keys (the `DATABASE_URL` default matches `docker-compose.yml` — no change needed for local dev):
 
 ```
 ANTHROPIC_API_KEY=your-anthropic-api-key
 OPENAI_API_KEY=your-openai-api-key
+DATABASE_URL=postgresql+psycopg://rag_user:rag_password@localhost:5432/rag_db
 ```
 
 ### 3. Start the database
